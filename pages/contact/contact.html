@@ -1,0 +1,45 @@
+<section class="contact">
+  <div class="row">
+    <div class="col">
+      <img src="img/contact.jpg" alt="" />
+      <div class="form">
+        <h2>Contact Us</h2>
+        <label class="label" for="fn">Name:</label>
+        <input
+          class="input"
+          type="text"
+          id="fName"
+          required="true"/><br/>
+
+        <label class="label" for="em">Email:</label>
+        <input
+          class="input"
+          type="text"
+          id="eMail"
+          required="true"/><br/><br>
+
+        <textarea name="txtar" id="textArea">Type something here...</textarea> <br><br>
+
+        <button id="submit" onclick="myFunction()">Continue</button>
+      </div>
+
+
+      <!-- <div class="form">
+    <label for="fn">First Name:</label>
+    <input type="text"  id="fName" required="true"/>
+    <label for="ln">Last Name:</label>
+    <input type="text" id="lName" required="true"/>
+    <textarea name="area" id="tArea" cols="30" rows="10"></textarea>
+    <input type="submit" value="Submit" id="submit" />
+</div> -->
+    </div>
+  </div>
+</section>
+
+<script>
+    function myFunction() {
+      console.log("clicked");
+      alert("Submitted!");
+    }
+  </script>
+

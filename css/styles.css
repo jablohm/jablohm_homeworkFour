@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+nav {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #37505C;
+}
+nav a {
+  color: #FFEAD0;
+  text-decoration: none;
+  font-size: 14pt;
+  font-weight: bolder;
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 12pt;
+  font-weight: bolder;
+  background-color: #37505C;
+  color: #FFEAD0;
+}
+
+.home {
+  background-color: #113537;
+}
+.home .row {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+.home .row img {
+  height: 100%;
+  width: 100%;
+}
+.home .row .col {
+  display: flex;
+}
+.home .row .col .txt {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 72pt;
+  display: flex;
+  text-align: center;
+  color: #113537;
+}
+
+.about .row {
+  display: table;
+  clear: both;
+  width: 100%;
+  height: 100%;
+}
+.about .row .col {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+.about .row .col img {
+  margin: 50px;
+  height: 40%;
+  width: 40%;
+}
+.about .row .col .txt {
+  width: 40%;
+  height: 100%;
+  margin: 50px;
+  justify-content: right;
+  align-items: right;
+  float: right;
+}
+.about .row .col .txt h1 {
+  color: #542344;
+  font-size: 24pt;
+}
+.about .row .col .txt p {
+  color: #20202a;
+  word-wrap: inherit;
+}
+
+.contact {
+  min-height: 100vh;
+}
+.contact .row {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+.contact .row img {
+  height: 100%;
+  width: 100%;
+  opacity: 50%;
+}
+.contact .row .col {
+  display: flex;
+}
+.contact .row .col .form {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24pt;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.contact .row .col .form h2 {
+  font-size: 24pt;
+}
+.contact .row .col .form .label {
+  font-size: 16pt;
+  padding: 2px;
+  color: #542344;
+  font-weight: bold;
+}
+.contact .row .col .form #fName, .contact .row .col .form #eMail {
+  font-size: 16pt;
+  color: #542344;
+  width: 500px;
+}
+.contact .row .col .form #textArea {
+  width: 575px;
+  height: 100px;
+}
+.contact .row .col .form #submit {
+  padding: 10px;
+  font-size: 14pt;
+  background-color: #542344;
+  font-weight: bolder;
+  border-radius: 10px;
+  color: #E8E9EB;
+}
+
+.login {
+  min-height: 100vh;
+}
+.login .row {
+  display: table;
+  clear: both;
+  width: 100%;
+  height: 100%;
+}
+.login .row .col {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+.login .row .col img {
+  margin: 50px;
+  height: 40%;
+  width: 40%;
+}
+.login .row .col .form {
+  width: 40%;
+  height: 100%;
+  margin: 50px;
+  justify-content: right;
+  align-items: right;
+  float: right;
+}
+.login .row .col .form .label {
+  font-size: 16pt;
+  padding: 5px;
+  color: #542344;
+  font-weight: bold;
+}
+.login .row .col .form #uName, .login .row .col .form #passWord, .login .row .col .form #eMail, .login .row .col .form #pWord {
+  font-size: 16pt;
+  color: #542344;
+  width: 400px;
+}
+.login .row .col .form #submit, .login .row .col .form #submit2, .login .row .col .form #submit3, .login .row .col .form #submit4 {
+  padding: 10px;
+  font-size: 14pt;
+  background-color: #542344;
+  font-weight: bolder;
+  border-radius: 10px;
+  color: #E8E9EB;
+}
+.login .row .desc {
+  width: 90%;
+  margin: 50px;
+  margin-top: 10px;
+}
+.login .row .desc h2 {
+  color: #542344;
+}
+
+/*# sourceMappingURL=styles.css.map */
